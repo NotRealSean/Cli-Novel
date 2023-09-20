@@ -2,31 +2,29 @@
 I just want to try something new and my old code is kind of spaghetti.
 
 # Dependency
-- kotlin
-- ktlint
-- jdk-openjdk
-- jre-openjdk
+- dotnet-runtime
+- dotnet-sdk
 
 ## Install Dependency
-### Arch linux(AUR Helper)
+### Arch linux
 ```bash
-yay -S kotlin ktlint jdk-openjdk jre-openjdk
+Sudo pacman -S dotnet-runtime dotnet-sdk
 ```
 
 # Build
 Git clone this to your local directory
 ```bash
-git clone https://github.com/NotRealSean/KotNovel && cd KotNovel
+git clone https://github.com/NotRealSean/Cli-Novel && cd Cli-Novel
 ```
 
 Build this game
 ```bash
-kotlinc main.kt -d main.jar
+dotnet build
 ```
 
 Run/Open the game
 ```bash
-java -jar main.jar
+dotnet run
 ```
 
 # Afterword

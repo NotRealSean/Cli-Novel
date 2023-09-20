@@ -1,0 +1,15 @@
+/home/lunar/Documents/Cli-Novel/obj/Debug/net7.0/Cli-Novel.csproj.AssemblyReference.cache
+/home/lunar/Documents/Cli-Novel/obj/Debug/net7.0/Cli-Novel.GeneratedMSBuildEditorConfig.editorconfig
+/home/lunar/Documents/Cli-Novel/obj/Debug/net7.0/Cli-Novel.AssemblyInfoInputs.cache
+/home/lunar/Documents/Cli-Novel/obj/Debug/net7.0/Cli-Novel.AssemblyInfo.cs
+/home/lunar/Documents/Cli-Novel/obj/Debug/net7.0/Cli-Novel.csproj.CoreCompileInputs.cache
+/home/lunar/Documents/Cli-Novel/bin/Debug/net7.0/Cli-Novel
+/home/lunar/Documents/Cli-Novel/bin/Debug/net7.0/Cli-Novel.deps.json
+/home/lunar/Documents/Cli-Novel/bin/Debug/net7.0/Cli-Novel.runtimeconfig.json
+/home/lunar/Documents/Cli-Novel/bin/Debug/net7.0/Cli-Novel.dll
+/home/lunar/Documents/Cli-Novel/bin/Debug/net7.0/Cli-Novel.pdb
+/home/lunar/Documents/Cli-Novel/obj/Debug/net7.0/Cli-Novel.dll
+/home/lunar/Documents/Cli-Novel/obj/Debug/net7.0/refint/Cli-Novel.dll
+/home/lunar/Documents/Cli-Novel/obj/Debug/net7.0/Cli-Novel.pdb
+/home/lunar/Documents/Cli-Novel/obj/Debug/net7.0/Cli-Novel.genruntimeconfig.cache
+/home/lunar/Documents/Cli-Novel/obj/Debug/net7.0/ref/Cli-Novel.dll

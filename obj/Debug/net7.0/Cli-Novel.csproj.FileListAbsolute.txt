@@ -13,3 +13,5 @@
 /home/lunar/Documents/Cli-Novel/obj/Debug/net7.0/Cli-Novel.pdb
 /home/lunar/Documents/Cli-Novel/obj/Debug/net7.0/Cli-Novel.genruntimeconfig.cache
 /home/lunar/Documents/Cli-Novel/obj/Debug/net7.0/ref/Cli-Novel.dll
+/home/lunar/Documents/Cli-Novel/bin/Debug/net7.0/tui-netcore.dll
+/home/lunar/Documents/Cli-Novel/obj/Debug/net7.0/Cli-Novel.csproj.CopyComplete

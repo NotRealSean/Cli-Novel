@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "K0RvFvLYJjcyrl6RYB/C9ss2Xhj15tyjqqQv0vmuuP2N7C/+jq5f0QrvNDkxFbGRvNXJJfInM+x92KfELkfZyw==",
+  "dgSpecHash": "By+i/q0AMnsB+IUBsCJV8rG67g+8FiXOMmXPGA/sR23D3ooplrabwI9RCRdNmFxm1jvZPvPqAZDFvage5/EJ8A==",
   "success": true,
   "projectFilePath": "/home/lunar/Documents/Cli-Novel/Cli-Novel.csproj",
   "expectedPackageFiles": [
-    "/home/lunar/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.11/microsoft.aspnetcore.app.ref.7.0.11.nupkg.sha512"
+    "/home/lunar/.nuget/packages/fc.tui-core/0.0.7/fc.tui-core.0.0.7.nupkg.sha512",
+    "/home/lunar/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.13/microsoft.aspnetcore.app.ref.7.0.13.nupkg.sha512"
   ],
   "logs": []
 }

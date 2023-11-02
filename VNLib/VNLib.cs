@@ -2,7 +2,7 @@ using System.Net.NetworkInformation;
 using System.Text.Json;
 using System.Text.Json.Nodes;
 
-namespace CSVNLib
+namespace VNLib
 {
     public class VNLib
     {
@@ -10,7 +10,7 @@ namespace CSVNLib
         {
             //Normal text generation
             public static void TextGen(string text, int textSpeed, bool clearConsole, bool pressOnKey, int delay)
-            {   
+            {
                 if (clearConsole == true)
                 {
                     Console.Clear();

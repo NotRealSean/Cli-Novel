@@ -1,11 +1,36 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {}
+    "net7.0": {
+      "fc.tui-core/0.0.7": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/tui-netcore.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/tui-netcore.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "fc.tui-core/0.0.7": {
+      "sha512": "Gs+D/SMtGwINPI855VbOAA0tfOf5/iDEHAlrMhMYUnToRAgtN4MGl1Cr76TTrrPzYWBuTYhtiRmI4LlSkJDHaw==",
+      "type": "package",
+      "path": "fc.tui-core/0.0.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fc.tui-core.0.0.7.nupkg.sha512",
+        "fc.tui-core.nuspec",
+        "lib/net5.0/tui-netcore.dll"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    "net7.0": []
+    "net7.0": [
+      "fc.tui-core >= 0.0.7"
+    ]
   },
   "packageFolders": {
     "/home/lunar/.nuget/packages/": {}
@@ -43,6 +68,12 @@
     "frameworks": {
       "net7.0": {
         "targetAlias": "net7.0",
+        "dependencies": {
+          "fc.tui-core": {
+            "target": "Package",
+            "version": "[0.0.7, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
@@ -57,7 +88,7 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[7.0.11, 7.0.11]"
+            "version": "[7.0.13, 7.0.13]"
           }
         ],
         "frameworkReferences": {
@@ -65,7 +96,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.111/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.113/RuntimeIdentifierGraph.json"
       }
     }
   }

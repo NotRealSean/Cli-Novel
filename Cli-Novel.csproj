@@ -8,4 +8,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="fc.tui-core" Version="0.0.7" />
+  </ItemGroup>
+
 </Project>

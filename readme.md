@@ -1,14 +1,17 @@
-# This is rewriten from my Terminal-Visual-Novel game
-I just want to try something new and my old code is kind of spaghetti.
+# This is dialog test for my future virtual novel game
+THIS IS NOT FULL GAME. I want to test my coding skill before I really made a game. I'm currenly learning Ren'Py engine.
 
 # Dependency
 - dotnet-runtime
 - dotnet-sdk
+- tui-dotnet(https://github.com/fcrozetta/tui-netcore)
 
 ## Install Dependency
 ### Arch linux
 ```bash
-Sudo pacman -S dotnet-runtime dotnet-sdk
+sudo pacman -S dotnet-runtime dotnet-sdk
+dotnet add package fc.tui-core
+dotnet restore
 ```
 
 # Build
@@ -27,13 +30,10 @@ Run/Open the game
 dotnet run
 ```
 
-# Afterword
-This is my side project and I will rewrite everything include story line and game code, Feel free to pull request build command or fix the issue.
-
 # Extra
 ## Contract
 Discord
 > notrealsean
 
 Twitter(X)
-> notrealsean1
+> @notrealsean1

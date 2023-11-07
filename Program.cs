@@ -1,28 +1,48 @@
 ﻿using System;
 using tui_netcore;
 using VNLib;
-namespace Setup {
-  public class mainGame {
-    public static void Main() {
-      while (true) {
-        Tui window = new Tui();
-        window.Title = " Hello World ";
-        window.Body = "Try say hello world!";
-        string answer = window.DrawInput();
-        if (answer.ToLower() == "help") {
-          window.Body = "Welcome to help page\nCommand:\n\thello world!\n\texit";
-          window.DrawOk();
+namespace Setup
+{
+    public class mainGame
+    {
+        public static void Main()
+        {
+            Tui win = new Tui();
+            win.Title = " Test game ";
+            while (true)
+            {
+                win.Body = "Please select character story below.";
+                string charSelect = win.DrawList(new List<string>() {
+                    "Euna",
+                    "Exit"
+                });
+                if (charSelect == "Exit")
+                {
+                    break;
+                }
+                switch (charSelect)
+                {
+                    case "Euna":
+                        Game.Story.Euna();
+
+                        break;
+                }
+
+            }
+            Console.Clear();
         }
-        if (answer.ToLower() == "hello world!") {
-          window.Body = "Hello world!";
-          window.DrawOk();
-        }
-        else if (answer.ToLower() == "exit") {
-          window.Body = "Goodbye!";
-          window.DrawOk();
-          break;
-        }
-      }
     }
-  }
+}
+namespace Game
+{
+    public class Story
+    {
+        public static void Euna()
+        {
+            Tui win = new Tui();
+            win.Body = "Test text";
+            win.DrawOk();
+
+        }
+    }
 }

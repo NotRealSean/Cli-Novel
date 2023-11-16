@@ -1,10 +1,17 @@
 [Plan]
++ Done
+- Not done/Doing
+/ Cancle/Change idea
+
+
 + Start with 2 kids run throught the storm while few bandits after them
 + Euna wake up from nightmare in the bed 
-- Euna slowly walk down stair and meet her partner
-- Her partner greeting her(and introduct her here)
-- Both of them enjoy breakfast
++ Euna walk down stair and meet Anchor
++ Anchor greeting her back(and introduct her here)
+/ Both of them enjoy breakfast
+  >> Euna decline to eat breakfast but her stomach growling make Anchor smile a little and Euna change her mind
 - Some "event" happened
+
 
 [Prologue]
 rumble rumble
